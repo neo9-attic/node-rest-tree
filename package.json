@@ -1,0 +1,33 @@
+{
+  "name": "rest-tree",
+  "version": "0.1.0",
+  "description": "hierarchical RESTful routes utility",
+  "homepage": "http://www.neo9.fr",
+  "keywords": [
+    "hierarchical",
+    "tree",
+    "rest",
+    "restful",
+    "routing",
+    "routes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neo9/node-rest-tree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neo9/node-rest-tree/issues"
+  },
+  "licences": {
+    "type": "MIT"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "author": "mov <mov@neo9.fr>"
+}
+
