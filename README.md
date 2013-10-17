@@ -1,8 +1,9 @@
 Rest Tree
 =========
 
-So far the library simply allow to generate flattened RESTful routes from a
-tree-oriented description of end-points.
+So far the library simply allows to generate flattened RESTful routes from a
+tree-oriented description of end-points. The resulting routes can then be
+mounted into an HTTP server.
 
 Install
 -------
