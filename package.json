@@ -1,6 +1,6 @@
 {
   "name": "rest-tree",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "hierarchical RESTful routes utility",
   "homepage": "http://www.neo9.fr",
   "keywords": [
