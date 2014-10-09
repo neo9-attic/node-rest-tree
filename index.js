@@ -5,11 +5,15 @@ module.exports.flatten = function (tree) {
     return x instanceof Array ? x : [ x ];
   };
 
+  var sorter = function (a, b) {
+    return b === '_' ? -1 : 1;
+  };
+
   var _flatten = function (path, enter, leave, tree) {
     if (tree.$enter) enter = enter.concat(wrap(tree.$enter));
     if (tree.$leave) leave = wrap(tree.$leave).concat(leave);
 
-    Object.getOwnPropertyNames(tree).forEach(function (key) {
+    Object.getOwnPropertyNames(tree).sort(sorter).forEach(function (key) {
       var value = tree[key];
       switch (key) {
         case '$node':
